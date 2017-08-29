@@ -1,0 +1,28 @@
+<div style="width:100%; padding-left: 20px; padding-right: 20px">
+	<div class="row">
+		<div class="col-xs-12"> <h1 style="text-align: center;">Mission Control Test Interface</h1> </div>
+	</div>
+	<div class="row">
+		<div class="col-xs-3">
+			<input class="form-control" style="margin-bottom:10px" type="text" id="target" name="target" placeholder="RoverCore-S Target" value="Arm" autocomplete="on">
+			<div id="info" style="height: 72.5vh; margin-bottom: 10px"></div>
+			<button class="btn btn-block" id="send-ctrl-signal">Send CTRL Signal</button>
+		</div>
+		<div class="col-xs-6">
+			<textarea placeholder="RoverCore-S Log Message" id="messages" class="form-control" style="height: 30vh;" id="log"></textarea>
+			<!-- <img src="http://127.0.0.1:9001/capture.jpg"> -->
+			<br>
+			<button class="btn" id="PickUp">PickUp</button>
+			<button class="btn" id="MidWay">MidWay</button>
+			<button class="btn" id="ToGround">ToGround</button>
+			<button class="btn" id="CloseClaw">CloseClaw</button>
+			<button class="btn" id="StopClaw">StopClaw</button>
+			<button class="btn" id="OpenClaw">OpenClaw</button>
+			<button class="btn" id="RotateBaseOverBox">RotateBaseOverBox</button>
+		</div>
+		<div class="col-xs-3">
+			<div id="model" style="width: 100%; height: 80vh;"></div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="interfaces/Test/test.js?random=asdf1234"></script>

@@ -1,0 +1,162 @@
+.topsection {
+	background-color: #191919;
+}
+
+.CurrentFeedback{
+	border: 2px solid white;
+	padding-left: 2px;
+	background-color: #191919;
+	display: none;
+	font-size: 14px;
+}
+
+.spaced {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.InputBox {
+	color: black;
+	width: 15%;
+	height: 25px;
+	font-size: 18px;
+	text-align: center;
+}
+
+.ArmSlider {
+	width: 90%;
+	margin-left: 5%;
+	cursor: pointer;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	min-height: 100%;
+	/*background: url('/images/background.jpg');*/
+	background-size: cover;
+	background-attachment: fixed;
+	font-size: 18px;
+	color: white;
+	overflow-x: hidden;
+}
+
+.sectionTitle {
+	color: #FFD700;
+}
+
+
+#manualControl{
+	display: none;
+}
+
+#camerafeed{
+	height: 800px;
+	width: 100%;
+	margin-bottom: 5px;
+}
+
+.row {
+	font-size: 18px;
+	color: white;
+	padding-left: 10px;
+}
+
+
+.toggleButtons {
+  border: 2px solid white;
+  padding: 6px;
+  text-align: center;
+}
+
+.rovercon {
+	border: 2px solid white;
+	padding: 10.5px;
+	text-align: center;
+}
+
+.rovercon2 {
+	border: 2px solid white;
+	padding: 10.5px;
+	text-align: left;
+	color: red;
+}
+
+#mancontroloff {
+  border: 2px solid white;
+  padding: 4px;
+  text-align: center;
+}
+
+#mancontroloff2 {
+  border: 2px solid white;
+  padding: 6px;
+}
+
+
+
+.clawclaw {
+	border-top: 2px solid white;
+	padding: 6px;
+}
+
+#clawclawclaw {
+	border-bottom: 2px solid white;
+	padding: 6px;
+}
+
+.clawclaw1 {
+	border-top: 2px solid white;
+	padding: 7px;
+	border-right: 2px solid white;
+}
+
+
+.clawclawclaw2 {
+	border-bottom: 2px solid white;
+	border-right: 2px solid white;
+	padding: 7px;
+}
+
+#centered {
+	text-align: center;
+}
+
+#controlsection {
+ border: 2px solid #2A9FD6;
+ background-color: #191919;
+ padding-top: 2px;
+ padding-left: 6px;
+
+}
+
+.controlTitle {
+	color: #2A9FD6;
+}
+
+.preset {
+	padding: 4px;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.btn-info {
+	padding: 4px;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.camselect {
+	padding: 8px;
+}
+
+
+/*
+   	     _
+     .__(.)< ("Quack")
+      \___)
+~~~~~~~~~~~~~~~~~~~~
+
+*/
